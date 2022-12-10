@@ -16,8 +16,8 @@ app.get("/",(req,res,next)=>{
 });
 
 app.listen(PORT, () =>{
-    logger.info("This is testing");
-    logger.error("This is error");
-    logger.warn("This is warning");
-    console.log(`🚀 Server is up and running on PORT ${PORT}`);
+    // logger.info("This is testing");
+    // logger.error("This is error");
+    // logger.warn("This is warning");
+    logger.info(`🚀Server is up and running on PORT ${PORT}`);
 });
