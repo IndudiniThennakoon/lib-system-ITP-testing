@@ -3,4 +3,5 @@ import cors from "cors";
 import 'dotenv/config';
 
 const app =express(); // calling to express
+app.use(cors()); // setup cors for our project usefully
 
