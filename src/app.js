@@ -1,6 +1,8 @@
 import express from "express";
 import cors from "cors";
+import logger from "./utils/logger";
 import 'dotenv/config';
+
 
 const app =express(); // calling to express
 const PORT = process.env.PORT || "8090";
@@ -14,5 +16,6 @@ app.get("/",(req,res,next)=>{
 });
 
 app.listen(PORT, () =>{
+    logger.info("This is testing");
     console.log(`🚀 Server is up and running on PORT ${PORT}`);
 });
