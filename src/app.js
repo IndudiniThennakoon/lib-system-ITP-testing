@@ -1,4 +1,6 @@
 import express from "express";
-import core from "cors";
-import dotenv from "dotenv";
+import cors from "cors";
+import 'dotenv/config';
+
+const app =express(); // calling to express
 
