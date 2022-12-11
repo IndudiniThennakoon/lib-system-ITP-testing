@@ -21,4 +21,5 @@ app.listen(PORT, () =>{
     // logger.error("This is error");
     // logger.warn("This is warning");
     logger.info(`🚀Server is up and running on PORT ${PORT}`);
+    connect();
 });
