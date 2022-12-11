@@ -15,7 +15,6 @@ const connect = async () => {
     }).catch((err) => {
         logger.error(err.message);
     });
-
-
-
 };
+
+export {connect};
