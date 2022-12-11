@@ -2,6 +2,7 @@ import express from "express";
 import cors from "cors";
 import logger from "./utils/logger";
 import 'dotenv/config';
+import {connect} from "./utils/database.connection";
 
 
 const app =express(); // calling to express
